@@ -63,6 +63,15 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "Modelos/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelos.dll": {}
+        }
       }
     }
   },
@@ -523,10 +532,16 @@
         "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Modelos/1.0.0": {
+      "type": "project",
+      "path": "../../Modelos/Modelos.csproj",
+      "msbuildProject": "../../Modelos/Modelos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Modelos >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
@@ -572,7 +587,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj": {
+              "projectPath": "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

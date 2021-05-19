@@ -975,6 +975,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Modelos": "1.0.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -983,6 +984,15 @@
         },
         "runtime": {
           "bin/placeholder/AppMovil.dll": {}
+        }
+      },
+      "Modelos/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelos.dll": {}
         }
       }
     }
@@ -2132,6 +2142,11 @@
       "type": "project",
       "path": "../AppMovil/AppMovil.csproj",
       "msbuildProject": "../AppMovil/AppMovil.csproj"
+    },
+    "Modelos/1.0.0": {
+      "type": "project",
+      "path": "../../Modelos/Modelos.csproj",
+      "msbuildProject": "../../Modelos/Modelos.csproj"
     }
   },
   "projectFileDependencyGroups": {

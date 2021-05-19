@@ -1,0 +1,17 @@
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.deps.json
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\ref\AppMovil.dll
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.pdb
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\Modelos.dll
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\bin\Debug\netstandard2.0\Modelos.pdb
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csprojAssemblyReference.cache
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfoInputs.cache
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfo.cs
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csproj.CoreCompileInputs.cache
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csproj.CopyComplete
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\ref\AppMovil.dll
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb
