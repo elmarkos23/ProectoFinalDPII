@@ -5,7 +5,7 @@
              Title="Worktime">
 
     <StackLayout Orientation="Vertical" Margin="10" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-    <Image Source="worktime.png"/>
+    <Button ImageSource="worktime" Text="sss"/>
     <Label Text="Identificación" HorizontalTextAlignment="Center"/>
     <Entry Placeholder="Ingrese Identificación" HorizontalTextAlignment="Center" Keyboard="Numeric" />
     <Button Text="Aceptar" BackgroundColor="#4CAF50" CornerRadius="10" TextColor="White" TextTransform="None" Clicked="Button_Clicked"/>

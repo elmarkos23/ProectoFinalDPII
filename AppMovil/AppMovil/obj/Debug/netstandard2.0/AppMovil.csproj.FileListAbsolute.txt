@@ -15,3 +15,4 @@ D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.c
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\ref\AppMovil.dll
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil\obj\Debug\netstandard2.0\Inicio.xaml.g.cs
