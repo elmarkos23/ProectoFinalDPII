@@ -11,7 +11,17 @@ namespace AplicacionWeb
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+      if (!IsPostBack)
+      {
+        CargarInformacion();
+      }
+    }
+    private void CargarInformacion()
+    {
+      List<Modelos.Dto.DtoUsuarios> dtoUsuarios = new List<Modelos.Dto.DtoUsuarios>();
+      dtoUsuarios = new AccesoDatos.Usuario().ObtenerUsuarios();
+      gvDatos.DataSource = dtoUsuarios;
+      gvDatos.DataBind();
     }
   }
 }

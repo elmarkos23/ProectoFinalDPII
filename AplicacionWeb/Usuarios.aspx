@@ -17,6 +17,15 @@
                     </span>
                 </div>
             </div>
+            <asp:Panel runat="server" ScrollBars="Vertical"> 
+                <asp:GridView runat="server" ID="gvDatos" CssClass="table">
+                    <Columns>
+                        <asp:ButtonField HeaderText="Editar" CommandName="Editar" Text="<span class='glyphicon glyphicon-pencil' aria-hidden='true'></span>" ControlStyle-CssClass="btn btn-primary btn-sm" ItemStyle-Width="40" />
+                    </Columns>
+                </asp:GridView>
+            </asp:Panel>
+
+
         </div>
     </div>
 </asp:Content>

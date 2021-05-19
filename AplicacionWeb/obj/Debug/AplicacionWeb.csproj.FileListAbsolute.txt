@@ -76,3 +76,7 @@ D:\GitHub\ProectoFinalDPII\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CoreComp
 D:\GitHub\ProectoFinalDPII\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CopyComplete
 D:\GitHub\ProectoFinalDPII\AplicacionWeb\obj\Debug\AplicacionWeb.dll
 D:\GitHub\ProectoFinalDPII\AplicacionWeb\obj\Debug\AplicacionWeb.pdb
+D:\GitHub\ProectoFinalDPII\AplicacionWeb\bin\AccesoDatos.dll
+D:\GitHub\ProectoFinalDPII\AplicacionWeb\bin\Dapper.dll
+D:\GitHub\ProectoFinalDPII\AplicacionWeb\bin\AccesoDatos.pdb
+D:\GitHub\ProectoFinalDPII\AplicacionWeb\bin\Dapper.xml
