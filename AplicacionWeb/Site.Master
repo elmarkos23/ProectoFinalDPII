@@ -53,7 +53,7 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/Usuarios">Usuarios</a></li>
-                        <li><a runat="server" href="~/Reportes">Reporte</a></li>
+                        <li><a runat="server" href="~/Reporte">Reporte</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a runat="server" href="~/About">Acerca de</a></li>

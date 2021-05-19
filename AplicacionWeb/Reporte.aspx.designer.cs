@@ -11,7 +11,7 @@ namespace AplicacionWeb
 {
 
 
-  public partial class Usuario
+  public partial class Reporte
   {
   }
 }
