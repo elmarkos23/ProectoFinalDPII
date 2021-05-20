@@ -45,6 +45,7 @@
     <Compile Include="AsistenciaDetalle.cs" />
     <Compile Include="Departamento.cs" />
     <Compile Include="Dto\DtoRegistro.cs" />
+    <Compile Include="Dto\DtoReporte.cs" />
     <Compile Include="Dto\DtoUsuarios.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

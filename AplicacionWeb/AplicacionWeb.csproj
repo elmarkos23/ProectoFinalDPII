@@ -149,6 +149,17 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="DataSet\Datos.xsc">
+      <DependentUpon>Datos.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet\Datos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Datos.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet\Datos.xss">
+      <DependentUpon>Datos.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Reporte.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -216,6 +227,11 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\Datos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Datos.xsd</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
