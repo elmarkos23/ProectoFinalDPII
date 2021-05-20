@@ -1,0 +1,11 @@
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\AccesoDatos.dll
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\AccesoDatos.pdb
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\Dapper.dll
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\Modelos.dll
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\Modelos.pdb
+D:\GitHub\ProectoFinalDPII\AccesoDatos\bin\Release\Dapper.xml
+D:\GitHub\ProectoFinalDPII\AccesoDatos\obj\Release\AccesoDatos.csprojAssemblyReference.cache
+D:\GitHub\ProectoFinalDPII\AccesoDatos\obj\Release\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\GitHub\ProectoFinalDPII\AccesoDatos\obj\Release\AccesoDatos.csproj.CopyComplete
+D:\GitHub\ProectoFinalDPII\AccesoDatos\obj\Release\AccesoDatos.dll
+D:\GitHub\ProectoFinalDPII\AccesoDatos\obj\Release\AccesoDatos.pdb

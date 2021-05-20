@@ -1,0 +1,6 @@
+D:\GitHub\ProectoFinalDPII\Modelos\bin\Release\Modelos.dll
+D:\GitHub\ProectoFinalDPII\Modelos\bin\Release\Modelos.pdb
+D:\GitHub\ProectoFinalDPII\Modelos\obj\Release\Modelos.csprojAssemblyReference.cache
+D:\GitHub\ProectoFinalDPII\Modelos\obj\Release\Modelos.csproj.CoreCompileInputs.cache
+D:\GitHub\ProectoFinalDPII\Modelos\obj\Release\Modelos.dll
+D:\GitHub\ProectoFinalDPII\Modelos\obj\Release\Modelos.pdb

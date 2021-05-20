@@ -3,9 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMovil.MainPage"
              Title="Worktime">
-
     <StackLayout Orientation="Vertical" Margin="10" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-    <Button ImageSource="worktime" Text="sss"/>
+    <Button ImageSource="icono" Text="sss" HeightRequest="100"/>
     <Label Text="Identificación" HorizontalTextAlignment="Center"/>
     <Entry Placeholder="Ingrese Identificación" HorizontalTextAlignment="Center" Keyboard="Numeric" />
     <Button Text="Aceptar" BackgroundColor="#4CAF50" CornerRadius="10" TextColor="White" TextTransform="None" Clicked="Button_Clicked"/>

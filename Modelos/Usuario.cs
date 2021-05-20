@@ -14,6 +14,7 @@ namespace Modelos
     public string nombres { get; set; }
     public string apellidos { get; set; }
     public int idDepartamento { get; set; }
+    public string genero { get; set; }
     public bool estado { get; set; }
   }
 }

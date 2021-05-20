@@ -14,5 +14,10 @@ namespace ServicioWeb.Controllers
 
       return View();
     }
+    [HttpGet]
+    public Modelos.Usuario ObtenerUsuario(string identificacion)
+    {
+      return new AccesoDatos.Usuario().ObtenerUsuario(identificacion);
+    }
   }
 }

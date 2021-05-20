@@ -10,11 +10,7 @@ namespace Modelos
   {
     public int id { get; set; }
     public int idUsuario { get; set; }
-    public DateTime registroEntrada { get; set; }
-    public DateTime registroSalida { get; set; }
-    public string UbicacionEntrada { get; set; }
-    public string SalidaEntrada { get; set; }
-    public byte[] FotoEntrada { get; set; }
-    public byte[] FotoSalida { get; set; }
+    public string fecha { get; set; }
+    public bool estado { get; set; }
   }
 }

@@ -3,3 +3,4 @@ D:\GitHub\ProectoFinalDPII\Modelos\bin\Debug\Modelos.pdb
 D:\GitHub\ProectoFinalDPII\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
 D:\GitHub\ProectoFinalDPII\Modelos\obj\Debug\Modelos.dll
 D:\GitHub\ProectoFinalDPII\Modelos\obj\Debug\Modelos.pdb
+D:\GitHub\ProectoFinalDPII\Modelos\obj\Debug\Modelos.csprojAssemblyReference.cache

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AplicacionMovil.Inicio"
+             Title="Worktime">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="Cerrar" x:Name="btnCerrar" Clicked="btnCerrar_Clicked"/>
+  </ContentPage.ToolbarItems>
+  <ContentPage.Content>
+    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Margin="10">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="worktime" WidthRequest="200"/>
+        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  x:Name="lblUsuario" Margin="0,80,0,50"/>
+        <Button Grid.Row="2" Grid.Column="0" ImageSource="login" Text="Entrada" BackgroundColor="LightGreen" CornerRadius="10" x:Name="btnEntrada" Clicked="btnEntrada_Clicked"/>
+        <Button Grid.Row="2" Grid.Column="1" ImageSource="logout" Text="Salida" BackgroundColor="Coral" CornerRadius="10" x:Name="btnSalida" Clicked="btnSalida_Clicked"/>
+      </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

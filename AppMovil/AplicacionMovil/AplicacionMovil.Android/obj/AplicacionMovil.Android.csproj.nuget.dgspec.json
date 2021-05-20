@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\AplicacionMovil.Android.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\AplicacionMovil.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\AplicacionMovil.Android.csproj",
+        "projectName": "AplicacionMovil.Android",
+        "projectPath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\AplicacionMovil.Android.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {},
+          "https://pkgs.dev.azure.com/Confiamed/c7f317fd-3c44-42c5-98a6-b8c55ba9f2ef/_packaging/Componentes.Reutilizables/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/taller-confiamed/04c6feaf-0b56-43fb-92e4-27fb133dfcac/_packaging/Capa-Integracion/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/taller-confiamed/5581a63b-310c-4987-8ebd-dae1c1724546/_packaging/proyecto-migracion/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj": {
+                "projectPath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj",
+        "projectName": "AplicacionMovil",
+        "projectPath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {},
+          "https://pkgs.dev.azure.com/Confiamed/c7f317fd-3c44-42c5-98a6-b8c55ba9f2ef/_packaging/Componentes.Reutilizables/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/taller-confiamed/04c6feaf-0b56-43fb-92e4-27fb133dfcac/_packaging/Capa-Integracion/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/taller-confiamed/5581a63b-310c-4987-8ebd-dae1c1724546/_packaging/proyecto-migracion/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj": {
+                "projectPath": "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj",
+        "projectName": "Modelos",
+        "projectPath": "D:\\GitHub\\ProectoFinalDPII\\Modelos\\Modelos.csproj"
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    }
+  }
+}

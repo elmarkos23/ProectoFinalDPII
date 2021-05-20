@@ -95,3 +95,7 @@ D:\GitHub\ProectoFinalDPII\ServicioWeb\obj\Debug\ServicioWeb.csproj.CoreCompileI
 D:\GitHub\ProectoFinalDPII\ServicioWeb\obj\Debug\ServicioWeb.csproj.CopyComplete
 D:\GitHub\ProectoFinalDPII\ServicioWeb\obj\Debug\ServicioWeb.dll
 D:\GitHub\ProectoFinalDPII\ServicioWeb\obj\Debug\ServicioWeb.pdb
+D:\GitHub\ProectoFinalDPII\ServicioWeb\bin\AccesoDatos.dll
+D:\GitHub\ProectoFinalDPII\ServicioWeb\bin\Dapper.dll
+D:\GitHub\ProectoFinalDPII\ServicioWeb\bin\AccesoDatos.pdb
+D:\GitHub\ProectoFinalDPII\ServicioWeb\bin\Dapper.xml

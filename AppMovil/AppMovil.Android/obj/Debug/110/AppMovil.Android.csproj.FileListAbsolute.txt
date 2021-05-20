@@ -574,3 +574,5 @@ D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\stamp\_Conver
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\res\drawable\login.png
+D:\GitHub\ProectoFinalDPII\AppMovil\AppMovil.Android\obj\Debug\110\res\drawable\logout.png
