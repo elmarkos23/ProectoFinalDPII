@@ -57,5 +57,54 @@ namespace AccesoDatos
       }
       return lista;
     }
+    public int Insert(Modelos.Usuario usuario)
+    {
+      using (var db = new SqlConnection(Conexion.GetConexion()))
+      {
+        string sql = @" INSERT INTO[dbo].[Usuario] ([idDepartamento],[tipoIdentificacion],[identificacion],[nombres],[apellidos],[genero],[estado])
+                        VALUES (@idDepartamento,@tipoIdentificacion,@identificacion,@nombres,@apellidos,@genero,@estado);
+                        SELECT @@IDENTITY";
+        var esril = db.ExecuteScalar(sql, new
+        {
+          idDepartamento = usuario.idDepartamento,
+          nombres = usuario.nombres,
+          apellidos = usuario.apellidos,
+          identificacion = usuario.identificacion,
+          tipoIdentificacion = usuario.tipoIdentificacion,
+          genero = usuario.genero,
+          estado = usuario.estado
+        });
+        return Convert.ToInt32(esril);
+      }
+    }
+    public bool Update(Modelos.Usuario usuario)
+    {
+      using (var db = new SqlConnection(Conexion.GetConexion()))
+      {
+        string sql = "UPDATE [dbo].[Usuario] SET [idDepartamento] = @idDepartamento ,[tipoIdentificacion] = @tipoIdentificacion ,[identificacion] = @identificacion ,[nombres] = @nombres ,[apellidos] = @apellidos ,[genero] = @genero ,[estado] = @estado WHERE id=@id";
+        var esril = db.Execute(sql, new
+        {
+          id = usuario.id,
+          idDepartamento = usuario.idDepartamento,
+          nombres = usuario.nombres,
+          apellidos = usuario.apellidos,
+          identificacion = usuario.identificacion,
+          tipoIdentificacion = usuario.tipoIdentificacion,
+          genero = usuario.genero,
+          estado = usuario.estado
+        });
+        return true;
+      }
+    }
+    public Modelos.Usuario SelectFirst(int id)
+    {
+      Modelos.Usuario lista = new Modelos.Usuario();
+      using (var db = new SqlConnection(Conexion.GetConexion()))
+      {
+        string sql = "SELECT [id],[idDepartamento],[tipoIdentificacion],[identificacion],[nombres],[apellidos],[genero],[estado] FROM [dbo].[Usuario] WHERE id=" + id + "";
+        lista = db.QueryFirst<Modelos.Usuario>(sql);
+      }
+      return lista;
+    }
   }
 }

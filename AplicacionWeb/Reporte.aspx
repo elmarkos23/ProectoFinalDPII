@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reporte.aspx.cs" Inherits="AplicacionWeb.Reporte" %>
+
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <br />
     <div class="panel panel-warning">
@@ -6,7 +8,9 @@
     <h3 class="panel-title">Reporte de Asistencia</h3>
   </div>
   <div class="panel-body">
-    Panel content
+    <div></div>
+      <hr />
+      <rsweb:ReportViewer ID="rvReporte" runat="server" Width="100%" Height="400"></rsweb:ReportViewer>
   </div>
 </div>
 </asp:Content>

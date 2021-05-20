@@ -9,11 +9,16 @@
         <div class="panel-body">
 
             <div class="row">
+                <div class="col-md-4">Id</div>
+                <div class="col-md-4"><asp:Label runat="server" ID="lblID" Text="0" /></div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
                     <p>Tipo Identificacion</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:DropDownList runat="server" CssClass="form-control">
+                    <asp:DropDownList runat="server" ID="ddlTipoIdentificacion" CssClass="form-control">
                         <asp:ListItem Text="CEDULA" Value="CED" />
                         <asp:ListItem Text="PASAPORTE" Value="PAS" />
                     </asp:DropDownList>
@@ -25,7 +30,8 @@
                     <p>Identificación</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:TextBox runat="server" CssClass="form-control" /></div>
+                    <asp:TextBox runat="server" ID="txtIdentificacion" CssClass="form-control" />
+                </div>
                 <div class="col-md-4"></div>
             </div>
             <div class="row">
@@ -33,7 +39,8 @@
                     <p>Nombres</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:TextBox runat="server" CssClass="form-control" /></div>
+                    <asp:TextBox runat="server" ID="txtNombres" CssClass="form-control" />
+                </div>
                 <div class="col-md-4"></div>
             </div>
             <div class="row">
@@ -41,7 +48,8 @@
                     <p>Apellidos</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:TextBox runat="server" CssClass="form-control" /></div>
+                    <asp:TextBox runat="server" ID="txtApellidos" CssClass="form-control" />
+                </div>
                 <div class="col-md-4"></div>
             </div>
             <div class="row">
@@ -49,7 +57,7 @@
                     <p>Genero</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:DropDownList runat="server" CssClass="form-control">
+                    <asp:DropDownList runat="server" ID="ddlGenero" CssClass="form-control">
                         <asp:ListItem Text="SELECCIONE" Value="S" />
                         <asp:ListItem Text="HOMBRE" Value="H" />
                         <asp:ListItem Text="MUJER" Value="M" />
@@ -62,15 +70,20 @@
                     <p>Departamento</p>
                 </div>
                 <div class="col-md-4">
-                    <asp:DropDownList runat="server" CssClass="form-control" DataValueField="id" DataTextField="nombre">
-                        <asp:ListItem Text="SELECCIONE" Value="S" />
-
+                    <asp:DropDownList runat="server" ID="ddlDepartamento" CssClass="form-control" DataValueField="id" DataTextField="nombre">
                     </asp:DropDownList>
                 </div>
                 <div class="col-md-4"></div>
             </div>
+            <div class="row">
+                <div class="col-md-4"><p>Estado</p></div>
+                <div class="col-md-4">
+                    <asp:CheckBox ID="chkEstado" Text="Activo" runat="server" Checked="true" /></div>
+                <div class="col-md-4"></div>
+            </div>
             <hr />
-            <a href="#" class="btn btn-success">Guardar</a>
+            <asp:Button runat="server" ID="btnGuardar" CssClass="btn btn-success" OnClick="btnGuardar_Click" Text="Guardar" />
+
         </div>
     </div>
 </asp:Content>

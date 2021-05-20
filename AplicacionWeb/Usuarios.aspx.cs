@@ -23,5 +23,27 @@ namespace AplicacionWeb
       gvDatos.DataSource = dtoUsuarios;
       gvDatos.DataBind();
     }
+
+    protected void gvDatos_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+      int index = Convert.ToInt32(e.CommandArgument);
+      GridViewRow gvrow = gvDatos.Rows[index];
+      if (e.CommandName.Equals("Editar"))
+      {
+        Session["idUsuario"] = Convert.ToInt32(HttpUtility.HtmlDecode(gvrow.Cells[1].Text).ToString());
+        Response.Redirect("Usuario");
+      }
+    }
+
+    protected void btnNuevo_Click(object sender, EventArgs e)
+    {
+      Session["idUsuario"] = "0";
+      Response.Redirect("Usuario");
+    }
+
+    protected void btnBuscar_Click(object sender, EventArgs e)
+    {
+
+    }
   }
 }
