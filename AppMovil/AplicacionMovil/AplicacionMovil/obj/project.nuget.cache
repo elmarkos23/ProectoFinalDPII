@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/xGoGNREw8bDTvzEArXPlHZ+I/JWYHFfYCSX9U8kqaK3dBtwon57MVfJ245HJwj/NDEMwQafy/HC0zhbectnNw==",
+  "dgSpecHash": "wjLRGGBTGh0HKknzTS14/lhYpllhuxAaMNRp1EUZWRbwcJt1d1aHQA64cVVCeez4nP8eeleveq0ofvsGjowYZg==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil\\AplicacionMovil.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

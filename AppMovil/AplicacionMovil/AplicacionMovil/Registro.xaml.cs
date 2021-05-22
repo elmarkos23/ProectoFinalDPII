@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace AplicacionMovil
@@ -21,11 +22,20 @@ namespace AplicacionMovil
     public Registro(string _tipo,int idAsistencia)
     {
       InitializeComponent();
+      var pin = new Pin
+      {
+        Type = PinType.Generic,
+        Position = new Position(double.Parse(App.lat, System.Globalization.CultureInfo.InvariantCulture), double.Parse(App.lng, System.Globalization.CultureInfo.InvariantCulture)),
+        Label = App.usuarioLogin.nombres + " " + App.usuarioLogin.apellidos,
+        Address = App.ubiGeo
+      };
+
+      myMapa.Pins.Add(pin);
+      myMapa.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(double.Parse(App.lat, System.Globalization.CultureInfo.InvariantCulture), double.Parse(App.lng, System.Globalization.CultureInfo.InvariantCulture)), Distance.FromKilometers(1)));
       this.tipo = _tipo;
       miAsistencia.id = idAsistencia;
       this.Title = _tipo.Equals("I") ? "Registrar Entrada" : "Registrar Salida";
       this.IconImageSource = tipo.Equals("I") ? "login" : "logout";
-      this.lblUbicacionActual.Text = App.ubiGeo;
       btnTomarFoto.Clicked += async (sender, args) =>
       {
         if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
