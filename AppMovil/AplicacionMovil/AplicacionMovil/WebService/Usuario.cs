@@ -20,7 +20,7 @@ namespace AplicacionMovil.WebService
 
       try
       {
-        var Uri = Util.Constantes.rutaAPI + "wortime_service/api/usuario/ObtenerUsuario" + "?identificacion=" + identificacion;
+        var Uri = Util.Constantes.rutaAPI + "worktime_service/api/usuario/ObtenerUsuario" + "?identificacion=" + identificacion;
         HttpResponseMessage Response = await Client.GetAsync(Uri);
         string PlacesJson = Response.Content.ReadAsStringAsync().Result;
         if (PlacesJson.Length > 0)

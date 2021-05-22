@@ -3,7 +3,6 @@ D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\bin\Debug\ne
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\bin\Debug\netstandard2.0\ref\AplicacionMovil.dll
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\bin\Debug\netstandard2.0\AplicacionMovil.pdb
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\AplicacionMovil.AssemblyInfoInputs.cache
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\AplicacionMovil.AssemblyInfo.cs
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\AplicacionMovil.csproj.CoreCompileInputs.cache
@@ -17,3 +16,4 @@ D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\bin\Debug\ne
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\bin\Debug\netstandard2.0\Modelos.pdb
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\AplicacionMovil.csproj.CopyComplete
 D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil\obj\Debug\netstandard2.0\Login.xaml.g.cs

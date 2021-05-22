@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7N1Nz1DGyJHJ5OXVW6OKVz8JGa2i8MaSJ0AlNCiSGPC75RWnBWSh5JpqbT4teS2bdrPbe9cIHqubHFYX+OuyUw==",
+  "dgSpecHash": "NfHyaNpiV1n+aBacyvJueWSwdTeMjizUDnLKbglpBWn8XKNR1P4sN71zx0nkkiklHY6HBzja4riFO3+0b39xTg==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\ProectoFinalDPII\\AppMovil\\AplicacionMovil\\AplicacionMovil.Android\\AplicacionMovil.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

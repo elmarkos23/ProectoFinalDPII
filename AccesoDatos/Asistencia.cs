@@ -37,5 +37,20 @@ namespace AccesoDatos
       }
       return estado;
     }
+    public int Insert(Modelos.Asistencia dato)
+    {
+      using (var db = new SqlConnection(Conexion.GetConexion()))
+      {
+        string sql = " INSERT INTO [dbo].[Asistencia] ([idUsuario],[fecha],[estado]) VALUES (@idUsuario,@fecha,@estado);" +
+              " SELECT @@IDENTITY";
+        var result = db.ExecuteScalar(sql, new
+        {
+          idUsuario = dato.idUsuario,
+          fecha=dato.fecha,
+          estado = dato.estado
+        });
+        return dato.id = Convert.ToInt32(result);
+      }
+    }
   }
 }

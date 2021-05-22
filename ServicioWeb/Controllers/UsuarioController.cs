@@ -7,8 +7,10 @@ using System.Web.Http;
 
 namespace ServicioWeb.Controllers
 {
-    public class UsuarioController : ApiController
+  [RoutePrefix("api/usuario")]
+  public class UsuarioController : ApiController
     {
+    [Route("ObtenerUsuario")]
     [HttpGet]
     public Modelos.Usuario ObtenerUsuario(string identificacion)
     {

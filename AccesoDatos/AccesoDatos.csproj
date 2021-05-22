@@ -49,6 +49,7 @@
     <Compile Include="AsistenciaDetalle.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="Departamento.cs" />
+    <Compile Include="DtoPersonalizado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>

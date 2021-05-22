@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Modelos.Dto
 {
-  public class DtoRegistro : Asistencia
+  public class DtoRegistro 
   {
-    public AsistenciaDetalle detalle { get; set; }
+    public int idAsistencia { get; set; }
+    public int idAsistenciaDetalle { get; set; }
+    public int idUsuario { get; set; }
+    public DateTime fecha { get; set; }
+    public string tipo { get; set; }
+    public TimeSpan hora { get; set; }
+    
   }
 }

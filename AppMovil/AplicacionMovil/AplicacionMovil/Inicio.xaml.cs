@@ -12,6 +12,9 @@ namespace AplicacionMovil
   [XamlCompilation(XamlCompilationOptions.Compile)]
   public partial class Inicio : ContentPage
   {
+    public int idAsistencia = 0;
+    List<Modelos.Dto.DtoRegistro> listaAsitencia = new List<Modelos.Dto.DtoRegistro>();
+    public string tipo = string.Empty;
     public Inicio()
     {
       InitializeComponent();
@@ -21,6 +24,34 @@ namespace AplicacionMovil
       base.OnAppearing();
       //your code here;
       lblUsuario.Text = "¡Hola!. "+App.usuarioLogin.nombres +" "+App.usuarioLogin.apellidos;
+      Cargar();
+    }
+    private async void Cargar()
+    {
+      listaAsitencia = await new WebService.Registro().Consultar(App.usuarioLogin.identificacion);
+      if (listaAsitencia.Count == 0)
+      {
+        btnRegistro.ImageSource = "login";
+        btnRegistro.Text = "Registrar Entrada";
+        btnRegistro.BackgroundColor = Color.LightGreen;
+        tipo = "I";
+      }
+      else if (listaAsitencia.Count == 1)
+      {
+        idAsistencia = listaAsitencia.First().idAsistencia;
+        lblMensaje.Text = "Usted registro su entrada a: "+listaAsitencia.First().hora.ToString();
+        btnRegistro.ImageSource = "logout";
+        btnRegistro.Text = "Registrar Salida";
+        btnRegistro.BackgroundColor = Color.Coral;
+        tipo = "O";
+      }
+      else
+      {
+        btnRegistro.IsVisible = false;
+        lblUsuario.Text = "Usted ya registro su asistencia del día";
+      }
+      
+
     }
     private async void btnCerrar_Clicked(object sender, EventArgs e)
     {
@@ -29,18 +60,13 @@ namespace AplicacionMovil
       {
         Preferences.Set("user", "");
         Preferences.Set("login", false);
-        App.Current.MainPage = new NavigationPage(new MainPage());
+        App.Current.MainPage = new NavigationPage(new Login());
       }
     }
 
-    private async void btnEntrada_Clicked(object sender, EventArgs e)
+    private async void btnRegistro_Clicked(object sender, EventArgs e)
     {
-      await Navigation.PushAsync(new Registro());
-    }
-
-    private async void btnSalida_Clicked(object sender, EventArgs e)
-    {
-      await Navigation.PushAsync(new Registro());
+      await Navigation.PushAsync(new Registro(tipo,idAsistencia));
     }
   }
 }

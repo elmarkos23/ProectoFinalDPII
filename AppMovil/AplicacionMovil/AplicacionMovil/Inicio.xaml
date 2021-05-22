@@ -16,13 +16,13 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
           <ColumnDefinition Width="*"/>
-          <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="worktime" WidthRequest="200"/>
-        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  x:Name="lblUsuario" Margin="0,80,0,50"/>
-        <Button Grid.Row="2" Grid.Column="0" ImageSource="login" Text="Entrada" BackgroundColor="LightGreen" CornerRadius="10" x:Name="btnEntrada" Clicked="btnEntrada_Clicked"/>
-        <Button Grid.Row="2" Grid.Column="1" ImageSource="logout" Text="Salida" BackgroundColor="Coral" CornerRadius="10" x:Name="btnSalida" Clicked="btnSalida_Clicked"/>
+        <Image Grid.Row="0" Grid.Column="0" Source="worktime" WidthRequest="200"/>
+        <Label Grid.Row="1" Grid.Column="0" x:Name="lblUsuario" Margin="0,80,0,50" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Title"/>
+        <Button Grid.Row="2" Grid.Column="0" CornerRadius="10" x:Name="btnRegistro" Clicked="btnRegistro_Clicked"/>
+
       </Grid>
-        </StackLayout>
-    </ContentPage.Content>
+      <Label x:Name="lblMensaje" HorizontalTextAlignment="Center"/>
+    </StackLayout>
+  </ContentPage.Content>
 </ContentPage>

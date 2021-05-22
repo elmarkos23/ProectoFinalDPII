@@ -3,10 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AplicacionMovil.Registro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <StackLayout Orientation="Vertical" Margin="10">
+      <Label Text="Ubicación referencia" HorizontalTextAlignment="Center"/>
+      <Label x:Name="lblUbicacionActual" HorizontalTextAlignment="Center" FontSize="Large"/>
+      <Grid HorizontalOptions="CenterAndExpand">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Frame Grid.Column="0" Grid.Row="0" CornerRadius="300" 
+           BorderColor="LightGreen"
+               HeightRequest="250"
+               WidthRequest="250"
+           HorizontalOptions="Center"
+           Padding="0"
+           IsClippedToBounds="True">
+          <Image x:Name="imgFoto"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        </Frame>
+      </Grid>
+
+      <Button x:Name="btnTomarFoto" Text="Tomar Foto" VerticalOptions="StartAndExpand" BackgroundColor="SkyBlue" CornerRadius="10" TextColor="White" TextTransform="None"/>
+      <Button Text="Aceptar" VerticalOptions="EndAndExpand" BackgroundColor="#4CAF50" CornerRadius="10" TextColor="White" TextTransform="None" Clicked="btnRegistro_Clicked"/>
+    </StackLayout>
     </ContentPage.Content>
 </ContentPage>

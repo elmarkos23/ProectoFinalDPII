@@ -23,6 +23,7 @@ com.google.android.material.tabs.TabLayout;D:\GitHub\ProectoFinalDPII\AppMovil\A
 com.google.android.material.tabs.TabLayout;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\layout\tabbar.xml
 declare-styleable;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\values\attrs.xml
 external-cache-path;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-files-path;obj\Release\110\res\xml\file_paths.xml
 external-path;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Release\110\res\mipmap-anydpi-v26\icon_round.xml
@@ -30,6 +31,7 @@ FrameLayout;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.
 item;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\values\styles.xml
 LinearLayout;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\layout\bottomtablayout.xml
 paths;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Release\110\res\xml\file_paths.xml
 resources;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\values\attrs.xml
 resources;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\values\strings.xml
 resources;D:\GitHub\ProectoFinalDPII\AppMovil\AplicacionMovil\AplicacionMovil.Android\obj\Release\110\lp\45\jl\res\values\styles.xml
