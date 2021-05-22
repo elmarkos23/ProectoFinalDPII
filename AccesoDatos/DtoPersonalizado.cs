@@ -24,5 +24,24 @@ namespace AccesoDatos
       }
       return dato;
     }
+    public List<Modelos.Dto.DtoReporte> SelectReporte()
+    {
+      List<Modelos.Dto.DtoReporte> dato = new List<Modelos.Dto.DtoReporte>();
+      using (var db = new SqlConnection(Conexion.GetConexion()))
+      {
+        string sql = @" SELECT U.identificacion,
+U.nombres+' '+U.apellidos AS nombres,
+A.fecha,CASE AD.tipo WHEN 'I' THEN 'ENTRADA' ELSE 'SALIDA' END AS tipo,
+cast(AD.hora as varchar(8)) as hora,
+AD.ubicacionReferencial,d.nombre as departamento,AD.foto,ad.ubicacion as latlng
+                        FROM Asistencia AS A
+                        INNER JOIN AsistenciaDetalle AS AD ON A.id=AD.idAsistencia
+                        INNER JOIN Usuario AS U ON U.id=A.idUsuario
+                        INNER JOIN Departamento AS D on d.id=u.idDepartamento
+                        ORDER BY A.fecha,ad.tipo";
+        dato = (List<Modelos.Dto.DtoReporte>)db.Query<Modelos.Dto.DtoReporte>(sql);
+      }
+      return dato;
+    }
   }
 }

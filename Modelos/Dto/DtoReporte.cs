@@ -9,11 +9,13 @@ namespace Modelos.Dto
   public class DtoReporte
   {
     public string identificacion { get; set; }
-    public string usuario { get; set; }
+    public string nombres { get; set; }
     public string fecha { get; set; }
     public string hora { get; set; }
     public string tipo { get; set; }
     public string ubicacionReferencial { get; set; }
     public string departamento { get; set; }
+    public byte[] foto { get; set; }
+    public string latlng { get; set; }
   }
 }

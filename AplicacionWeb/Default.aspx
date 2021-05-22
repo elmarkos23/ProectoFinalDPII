@@ -6,7 +6,7 @@
         <center>
             <img src="Content/worktime.png" alt="Alternate Text" height="170" />
         <h1>Worktime</h1>
-        <p class="lead">Registro de sistema desde una app movil con seguimiento de ubicación y fotografia</p>
+        <p class="lead">Registro de asistencia desde una app movil con seguimiento de ubicación y fotografia</p>
         </center>
     </div>
 
