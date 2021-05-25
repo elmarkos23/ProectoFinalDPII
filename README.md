@@ -14,11 +14,11 @@
 
 **Resultados**
 
-| TITULO1| TITULO2|
+|TITULO1|TITULO2|
 
-| ----- | ---- |
+|-----| ----|
 
-| CONTENIDO COLUMNA 1 | CONTENIDO COLUMNA 2 |
+|CONTENIDO COLUMNA 1|CONTENIDO COLUMNA 2|
 
 
 
