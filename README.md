@@ -1,5 +1,5 @@
 # ProectoFinalDPII
-Proyecto Final de Plataformas II
+## Proyecto Final de Plataformas II
 
 
 **Integrantes**
