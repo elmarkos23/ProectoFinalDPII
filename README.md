@@ -14,12 +14,11 @@
 
 **Resultados**
 
-|TITULO1|TITULO2|
-
-|-----| ----|
-
-|CONTENIDO COLUMNA 1|CONTENIDO COLUMNA 2|
-
+| Imagen 1  | Imagen 2 |
+| ------------- | ------------- |
+| ![Imagen 1](https://github.com/elmarkos23/ProectoFinalDPII/blob/main/Documentacion/Imagenes%20App/1.jpeg)  | ![Imagen 1](https://github.com/elmarkos23/ProectoFinalDPII/blob/main/Documentacion/Imagenes%20App/1.jpeg)  |
+| Content Cell  | Content Cell  |
 
 
-![Imagen 1](https://github.com/elmarkos23/ProectoFinalDPII/blob/main/Documentacion/Imagenes%20App/1.jpeg)
+
+
