@@ -12,13 +12,13 @@
                     <span class="input-group-addon">Buscar</span>
                     <input type="text" class="form-control">
                     <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button">Buscar</button>
-                        <button class="btn btn-success" type="button">Agregar</button>
+                        <asp:Button Text="Buscar" runat="server" CssClass="btn btn-primary" ID="btnBuscar" OnClick="btnBuscar_Click" />
+                        <asp:Button Text="Agregar" runat="server" CssClass="btn btn-success" ID="btnNuevo" OnClick="btnNuevo_Click" />
                     </span>
                 </div>
             </div>
             <asp:Panel runat="server" ScrollBars="Vertical"> 
-                <asp:GridView runat="server" ID="gvDatos" CssClass="table">
+                <asp:GridView runat="server" ID="gvDatos" CssClass="table" OnRowCommand="gvDatos_RowCommand">
                     <Columns>
                         <asp:ButtonField HeaderText="Editar" CommandName="Editar" Text="<span class='glyphicon glyphicon-pencil' aria-hidden='true'></span>" ControlStyle-CssClass="btn btn-primary btn-sm" ItemStyle-Width="40" />
                     </Columns>

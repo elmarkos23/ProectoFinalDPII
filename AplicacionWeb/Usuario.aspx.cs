@@ -33,6 +33,53 @@ namespace AplicacionWeb
         }
       }
     }
+    
+    public static bool VerificaCedula(char[] validarCedula)
+    {
+      int aux = 0, par = 0, impar = 0, verifi;
+      for (int i = 0; i < 9; i += 2)
+      {
+        aux = 2 * int.Parse(validarCedula[i].ToString());
+        if (aux > 9)
+          aux -= 9;
+        par += aux;
+      }
+      for (int i = 1; i < 9; i += 2)
+      {
+        impar += int.Parse(validarCedula[i].ToString());
+      }
+
+      aux = par + impar;
+      if (aux % 10 != 0)
+      {
+        verifi = 10 - (aux % 10);
+      }
+      else
+        verifi = 0;
+      if (verifi == int.Parse(validarCedula[9].ToString()))
+        return true;
+      else
+        return false;
+    }
+
+    private bool Validar()
+    {
+      bool resultado=true;
+      if (new AccesoDatos.Usuario().ObtenerUsuario(txtIdentificacion.Text) != null)
+      {
+        resultado = false;
+        lblMensaje.Text = "Usuario ya existe!";
+      }
+      if(ddlTipoIdentificacion.SelectedValue.Equals("CED"))
+      {
+        if (!VerificaCedula(txtIdentificacion.Text.ToArray()))
+        {
+          resultado = false;
+          lblMensaje.Text = "No es una cedula correcta";
+        }
+      }
+      return resultado;
+    }
     private void CargarInformacion()
     {
       List<Modelos.Departamento> departamentos = new List<Modelos.Departamento>();
@@ -43,6 +90,7 @@ namespace AplicacionWeb
 
     protected void btnGuardar_Click(object sender, EventArgs e)
     {
+      lblMensaje.Text = String.Empty;
       Modelos.Usuario usuario = new Modelos.Usuario
       {
         id = Convert.ToInt32(lblID.Text),
@@ -56,13 +104,18 @@ namespace AplicacionWeb
       };
       if (usuario.id == 0)
       {
-        new AccesoDatos.Usuario().Insert(usuario);
+        if (Validar())
+        {
+          new AccesoDatos.Usuario().Insert(usuario);
+          Response.Redirect("Usuarios");
+        }
       }
       else
       {
         new AccesoDatos.Usuario().Update(usuario);
+        Response.Redirect("Usuarios");
       }
-      Response.Redirect("Usuarios");
+      
     }
   }
 }

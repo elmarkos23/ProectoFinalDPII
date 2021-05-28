@@ -87,3 +87,12 @@ androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
 Plugin.Media.dll
+Xamarin.Forms.Maps.Android.dll
+Xamarin.GooglePlayServices.Base.dll
+Xamarin.GooglePlayServices.Basement.dll
+Xamarin.GooglePlayServices.Maps.dll
+Xamarin.GooglePlayServices.Tasks.dll
+playservicesbasement-17.1.0.aar
+playservicestasks-17.0.0.aar
+playservicesbase-17.1.0.aar
+playservicesmaps-17.0.0.aar

@@ -32,7 +32,8 @@
                 <div class="col-md-4">
                     <asp:TextBox runat="server" ID="txtIdentificacion" CssClass="form-control" />
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <asp:RequiredFieldValidator runat="server" ID="rfvIdentificacion" ControlToValidate="txtIdentificacion" ErrorMessage=" * Ingrese campo" ValidationGroup="Guardar" CssClass="text text-danger" /></div>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -41,7 +42,9 @@
                 <div class="col-md-4">
                     <asp:TextBox runat="server" ID="txtNombres" CssClass="form-control" />
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ControlToValidate="txtNombres" ErrorMessage=" * Ingrese campo" ValidationGroup="Guardar" CssClass="text text-danger" />
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -50,7 +53,9 @@
                 <div class="col-md-4">
                     <asp:TextBox runat="server" ID="txtApellidos" CssClass="form-control" />
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator2" ControlToValidate="txtApellidos" ErrorMessage=" * Ingrese campo" ValidationGroup="Guardar" CssClass="text text-danger" />
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -82,8 +87,8 @@
                 <div class="col-md-4"></div>
             </div>
             <hr />
-            <asp:Button runat="server" ID="btnGuardar" CssClass="btn btn-success" OnClick="btnGuardar_Click" Text="Guardar" />
-
+            <asp:Button runat="server" ID="btnGuardar" CssClass="btn btn-success" OnClick="btnGuardar_Click" Text="Guardar" ValidationGroup="Guardar" />
+            <asp:Label ID="lblMensaje" runat="server" CssClass="text-danger"></asp:Label>
         </div>
     </div>
 </asp:Content>
